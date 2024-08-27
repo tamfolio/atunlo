@@ -1,0 +1,32 @@
+import React from "react";
+import PartnerCard from "./PartnerCard";
+
+function Partners() {
+  return (
+    <div className="px-[121px] pb-[50px] pt-[200px] flex items-center justify-center flex-col">
+      <h1 className="text-[50px] font-medium">Partners</h1>
+      <p className="w-[523px] mt-[20px] text-center text-[18px] font-light text-[#151515]">
+        Our valued partners play a role in advancing our mission, fostering
+        sustainability and collectively building a greener future
+      </p>
+      <div className="flex flex-col gap-[20px]">
+      <div className="mt-[80px] flex gap-[20px]">
+        <PartnerCard imageSrc="/assets/boi.png" />
+        <PartnerCard imageSrc="/assets/7up.png" />
+        <PartnerCard imageSrc="/assets/indorama.png" />
+        <PartnerCard imageSrc="/assets/igs.png" />
+        <PartnerCard imageSrc="/assets/fbra.png" />
+      </div>
+      <div className="flex gap-[20px]">
+        <PartnerCard imageSrc="/assets/grap.png" />
+        <PartnerCard imageSrc="/assets/access-bank.png" />
+        <PartnerCard imageSrc="/assets/sonnex.png" />
+        <PartnerCard imageSrc="/assets/hey.png" />
+        <PartnerCard imageSrc="/assets/fidelity.png" />
+      </div>
+    </div>
+    </div>
+  );
+}
+
+export default Partners;

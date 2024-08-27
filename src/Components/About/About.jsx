@@ -1,0 +1,41 @@
+import React from "react";
+import CustomCard from "./CustomCard";
+
+function About() {
+  return (
+    <div className="bg-[#073332] px-[121px] pt-[30px] pb-[50px] flex flex-col items-center justify-center">
+      <h1 className="text-[20px] font-normal text-green mb-[24px]">
+        Get to Know Us
+      </h1>
+      <h1 className="text-[50px] text-white font-medium mb-[85px]">About</h1>
+      <div className="flex items-start justify-between w-[100%]">
+        <h1 className="text-[50px] text-white font-medium mt-[90px]">Our Approach</h1>
+        <div>
+          <div className="flex gap-[20px]">
+            <CustomCard
+              imageSrc="/assets/advocacy.png"
+              title="Advocacy"
+              description="Raise awareness and promote an understanding of circular economy principles among businesses, policymakers and the general public"
+            />
+            <CustomCard
+              imageSrc="/assets/commercialization.png"
+              title="Commercialization"
+              description="Incentivise waste collection (waste to cash, insurance, education) and transform recyclable plastics into commercially viable products"
+            />
+          </div>
+          <div className="flex mt-[20px]">
+            <div className="ml-auto">
+              <CustomCard
+                imageSrc="/assets/governance.png"
+                title="Governance"
+                description="Raise awareness and promote an understanding of circular economy principles among businesses, policymakers and the general public"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default About;

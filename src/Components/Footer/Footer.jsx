@@ -1,0 +1,42 @@
+import React from "react";
+
+function Footer() {
+  const currentYear = new Date().getFullYear();
+  return (
+    <div className="flex flex-col py-[30px] px-[121px]">
+      <div className="h-[1px] bg-[#E8E8E8] w-[100%] mb-[40px]"></div>
+      <div className="flex items-center justify-between">
+        <div>
+          <img src="/assets/logo.png" alt="" className="mb-[17px]" />
+          <p>9 Oriwu Street, Lekki</p>
+        </div>
+        <div className="flex gap-[58px]">
+          <div className="flex flex-col items-start justify-start">
+            <h1 className="text-[16px] font-medium mb-[24px]">Contact</h1>
+            <div className="flex gap-[10px] items-center justify-center mb-[20px]">
+              <img src="/assets/phone.png" alt="" />
+              <p>+2348182440889</p>
+            </div>
+            <div className="flex gap-[10px] items-center justify-center">
+              <img src="/assets/mail.png" alt="" />
+              <p>operations@atunlotech.com</p>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-[16px] font-medium mb-[24px]">Social</h1>
+            <div className="flex gap-[20px]">
+              <img src="/assets/instagram.png" alt="" />
+              <img src="/assets/linkedin.png" alt="" />
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <p className="text-[#151515] font-light text-[16px]">© Atunlo, {currentYear}.</p>
+      </div>
+    </div>
+  );
+}
+
+export default Footer;
