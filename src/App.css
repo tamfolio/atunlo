@@ -4,3 +4,13 @@
     rgba(153, 153, 153, 0.16)
   );
 }
+
+.rsis-image{
+  border-top-right-radius: 20px!important;
+  object-fit: "cover"!important;
+}
+
+.rsis-container {
+  border-top-right-radius: 20px!important;
+  object-fit: "cover"!important;
+}

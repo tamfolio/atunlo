@@ -3,13 +3,13 @@ import InfoCard from "./Infocard";
 
 function Achievements() {
   return (
-    <div className="flex flex-col items-center justify-start px-[160px] py-[30px]">
-      <p className="text-green">Our Key Achievements</p>
-      <h1 className="text-[50px] font-medium w-[564px] text-center mt-[50px] mb-[90px]">
-        Get a highlight of the <span className="text-green">SDGs</span> we've
+    <div className="flex flex-col items-center justify-center lg:justify-start px-[27px] lg:px-[160px] py-[30px]">
+      <p className="text-green text-[16px] lg:text-[20px]">Our Key Achievements</p>
+      <h1 className="text-[33px] lg:text-[50px] font-medium w-[312px] lg:w-[564px] text-center mt-[50px] mb-[90px]">
+        Get a highlight of the <span className="text-green">SDGs</span> we
         impacted
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] p-[20px]">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-[20px] flex-wrap">
         <InfoCard
           bgColor="bg-[#DDF5CF]"
           circleColor="bg-[#4CC800]/10"

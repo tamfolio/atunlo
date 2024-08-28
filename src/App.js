@@ -16,8 +16,8 @@ function App() {
       <Achievements/>
       <About/>
       <MeetTheTeam/>
-      <Partners/>
       <Initiative/>
+      <Partners/>
       <Footer/>
     </div>
   );
