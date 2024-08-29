@@ -15,7 +15,7 @@ function Initiative() {
       <h1 className="text-[33px] lg:text-[50px] font-medium mb-[37px]">
         Our Initiatives
       </h1>
-      <div className="flex items-start justify-start lg:items-center lg:justify-center gap-[20px] w-[100%] overflow-scroll">
+      <div className="flex items-start justify-start lg:items-center lg:justify-center gap-[20px] w-[100%] overflow-scroll lg:overflow-hidden">
         {initiatives.map((initiative) => (
           <div
             key={initiative.id}
