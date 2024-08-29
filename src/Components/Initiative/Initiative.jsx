@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Initiative() {
   const [selection, setSelection] = useState("1");
@@ -8,6 +10,15 @@ function Initiative() {
     { id: "2", name: "Decarbonisation" },
     { id: "3", name: "Green Finance" },
     { id: "4", name: "Recycling" },
+  ];
+
+  const sliderImages1 = [
+    "/assets/green_card.png",
+    "/assets/green_card2.png",
+    "/assets/green_card3.png",
+    "/assets/green_card4.png",
+    "/assets/green_card5.png",
+    "/assets/green_card6.png"
   ];
 
   return (
@@ -57,11 +68,25 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <img
-              src="/assets/kids.jpeg"
-              alt=""
+            <Carousel
+              showThumbs={false}
+              autoPlay
+              infiniteLoop
+              showArrows
+              showStatus={false}
+              emulateTouch
               className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-            />
+            >
+              {sliderImages1.map((image, index) => (
+                <div key={index}>
+                  <img
+                    src={image}
+                    alt={`Slide ${index + 1}`}
+                    className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+                  />
+                </div>
+              ))}
+            </Carousel>
           </div>
         </div>
       )}
@@ -122,11 +147,25 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <img
-              src="/assets/kids.jpeg"
-              alt=""
+            <Carousel
+              showThumbs={false}
+              autoPlay
+              infiniteLoop
+              showArrows
+              showStatus={false}
+              emulateTouch
               className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-            />
+            >
+              {sliderImages1.map((image, index) => (
+                <div key={index}>
+                  <img
+                    src={image}
+                    alt={`Slide ${index + 1}`}
+                    className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+                  />
+                </div>
+              ))}
+            </Carousel>
           </div>
         </div>
       )}
