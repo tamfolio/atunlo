@@ -4,12 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the st
 
 const images = [
   { url: "/assets/hero1.jpeg" },
-  { url: "/assets/hero2.png" },
-  { url: "/assets/hero3.png" },
   { url: "/assets/hero4.png" },
-  { url: "/assets/hero5.png" },
-  { url: "/assets/hero6.png" },
-  { url: "/assets/hero7.png" },
   { url: "/assets/hero8.png" },
   { url: "/assets/hero9.png" }
 ];
@@ -18,7 +13,7 @@ function Hero() {
   return (
     <div className="flex flex-col lg:flex-row w-[100%] px-[22px] lg:px-[121px] items-center justify-center py-[10px]">
       {/* Left Content */}
-      <div className="w-[90%] lg:w-[588px] h-[374px] lg:h-[579px] bg-green rounded-tl-[20px] rounded-tr-[20px] lg:rounded-tr-none lg:rounded-bl-[20px] relative flex flex-col items-center justify-center">
+      <div className="w-[100%] lg:w-[588px] h-[374px] lg:h-[579px] bg-green rounded-tl-[20px] rounded-tr-[20px] lg:rounded-tr-none lg:rounded-bl-[20px] relative flex flex-col items-center justify-center">
         <img
           src="/assets/top_png.png"
           alt=""
@@ -46,7 +41,7 @@ function Hero() {
       </div>
 
       {/* Carousel */}
-      <div className="h-[384px] lg:h-[579px] lg:w-[588px] w-[90%] flex justify-center items-center rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]">
+      <div className="h-[384px] lg:h-[579px] lg:w-[588px] w-[100%] flex justify-center items-center rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]">
         <Carousel
           showThumbs={false}
           autoPlay

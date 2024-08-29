@@ -55,10 +55,10 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[309px] lg:w-[449px] font-semibold text-white text-[30px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
               We are not just teaching kids about recycling
             </h1>
-            <p className="font-light text-[16px] text-white w-[329px] lg:w-[455px] mb-[40px]">
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
               We are empowering them to be eco-champions. Through our Recycling
               Clubs for Kids, we instil a sense of environmental stewardship
               with engaging workshops, educational games, and hands-on
@@ -76,25 +76,11 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <Carousel
-              showThumbs={false}
-              autoPlay
-              infiniteLoop
-              showArrows
-              showStatus={false}
-              emulateTouch
-              className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-            >
-              {sliderImages1.map((image, index) => (
-                <div key={index}>
-                  <img
-                    src={image}
-                    alt={`Slide ${index + 1}`}
-                    className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-                  />
-                </div>
-              ))}
-            </Carousel>
+            <img
+              src="/assets/kids.jpeg"
+              alt=""
+              className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+            />
           </div>
         </div>
       )}
@@ -106,10 +92,10 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[309px] lg:w-[449px] font-semibold text-white text-[30px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
               Decarbonisation
             </h1>
-            <p className="font-light text-[16px] text-white w-[329px] lg:w-[455px] mb-[40px]">
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
               We offer decarbonisation programs for corporates and government
               organisations looking to reduce their carbon footprint. This
               includes capacity building for staff members and other initiatives
@@ -122,25 +108,11 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <Carousel
-              showThumbs={false}
-              autoPlay
-              infiniteLoop
-              showArrows
-              showStatus={false}
-              emulateTouch
-              className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-            >
-              {sliderImages2.map((image, index) => (
-                <div key={index}>
-                  <img
-                    src={image}
-                    alt={`Slide ${index + 1}`}
-                    className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-                  />
-                </div>
-              ))}
-            </Carousel>
+            <img
+              src="/assets/decarbon (2).png"
+              alt=""
+               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+            />
           </div>
         </div>
       )}
@@ -152,10 +124,10 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[309px] lg:w-[449px] font-semibold text-white text-[30px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
               Green Finance
             </h1>
-            <p className="font-light text-[16px] text-white w-[329px] lg:w-[455px] mb-[40px]">
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
               We have built a model to help profile our collection agents for
               Green Financing. Here, our agents are given a 0% interest rate
               loan to grow their business and increase their capacity to clean
@@ -169,25 +141,11 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <Carousel
-              showThumbs={false}
-              autoPlay
-              infiniteLoop
-              showArrows
-              showStatus={false}
-              emulateTouch
-              className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-            >
-              {sliderImages1.map((image, index) => (
-                <div key={index}>
-                  <img
-                    src={image}
-                    alt={`Slide ${index + 1}`}
-                    className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-                  />
-                </div>
-              ))}
-            </Carousel>
+            <img
+              src="/assets/green_card2.png"
+              alt=""
+               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+            />
           </div>
         </div>
       )}
@@ -199,10 +157,10 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[309px] lg:w-[449px] font-semibold text-white text-[30px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
               Recycling
             </h1>
-            <p className="font-light text-[16px] text-white w-[329px] lg:w-[455px] mb-[40px]">
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
               In collecting waste, we run sensitisation events to encourage
               individuals to see plastics as a source of income. Some of our
               incentives include cash, health insurance and education. Waste
@@ -217,9 +175,9 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/kids.jpeg"
+              src="/assets/recycling.png"
               alt=""
-              className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
             />
           </div>
         </div>
