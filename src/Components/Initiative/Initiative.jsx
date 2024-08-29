@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Initiative() {
   const [selection, setSelection] = useState("1");
@@ -18,7 +18,15 @@ function Initiative() {
     "/assets/green_card3.png",
     "/assets/green_card4.png",
     "/assets/green_card5.png",
-    "/assets/green_card6.png"
+    "/assets/green_card6.png",
+  ];
+
+  const sliderImages2 = [
+    "/assets/decarbon (1).png",
+    "/assets/decarbon (2).png",
+    "/assets/decarbon (3).png",
+    "/assets/decarbon (4).png",
+    "/assets/decarbon (5).png",
   ];
 
   return (
@@ -108,17 +116,31 @@ function Initiative() {
               focused on energy consumption reduction, collection as well as
               recycling of waste.
             </p>
-             <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
+            <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
               <img src="/assets/down_arrow.png" alt="" />
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <img
-              src="/assets/kids.jpeg"
-              alt=""
+            <Carousel
+              showThumbs={false}
+              autoPlay
+              infiniteLoop
+              showArrows
+              showStatus={false}
+              emulateTouch
               className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-            />
+            >
+              {sliderImages2.map((image, index) => (
+                <div key={index}>
+                  <img
+                    src={image}
+                    alt={`Slide ${index + 1}`}
+                    className="w-[331px] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+                  />
+                </div>
+              ))}
+            </Carousel>
           </div>
         </div>
       )}
@@ -141,7 +163,7 @@ function Initiative() {
               till date, we have given out over N35m in Green Finance to our
               agents.
             </p>
-             <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
+            <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
               <img src="/assets/down_arrow.png" alt="" />
             </div>
@@ -188,7 +210,7 @@ function Initiative() {
               economy manufacturers who use these to make fibre, rope,
               automobile materials and other household plastics.
             </p>
-             <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
+            <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
               <img src="/assets/down_arrow.png" alt="" />
             </div>
