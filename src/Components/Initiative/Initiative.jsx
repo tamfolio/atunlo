@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 function Initiative() {
   const [selection, setSelection] = useState("1");
@@ -12,22 +11,7 @@ function Initiative() {
     { id: "4", name: "Recycling" },
   ];
 
-  const sliderImages1 = [
-    "/assets/green_card.png",
-    "/assets/green_card2.png",
-    "/assets/green_card3.png",
-    "/assets/green_card4.png",
-    "/assets/green_card5.png",
-    "/assets/green_card6.png",
-  ];
 
-  const sliderImages2 = [
-    "/assets/decarbon (1).png",
-    "/assets/decarbon (2).png",
-    "/assets/decarbon (3).png",
-    "/assets/decarbon (4).png",
-    "/assets/decarbon (5).png",
-  ];
 
   return (
     <div className="px-[21px] lg:px-[121px] pb-[50px] pt-[50px] lg:pt-[200px] flex items-center justify-center flex-col">
