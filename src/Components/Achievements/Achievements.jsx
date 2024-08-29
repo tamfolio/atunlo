@@ -9,7 +9,7 @@ function Achievements() {
         Get a highlight of the <span className="text-green">SDGs</span> we
         impacted
       </h1>
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-[20px] flex-wrap">
+      <div className="lg:grid md:grid-cols-2 lg:grid-cols-3 gap-[20px] p-[20px] flex flex-col items-center justify-center">
         <InfoCard
           bgColor="bg-[#DDF5CF]"
           circleColor="bg-[#4CC800]/10"

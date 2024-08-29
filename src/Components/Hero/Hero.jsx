@@ -1,12 +1,17 @@
 import React from "react";
-import SimpleImageSlider from "react-simple-image-slider";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the styles
 
-const images = [{ url: "/assets/hero1.jpeg" }, { url: "/assets/hero2.png" }];
+const images = [
+  { url: "/assets/hero1.jpeg" },
+  { url: "/assets/hero2.jpg" }
+];
 
 function Hero() {
   return (
     <div className="flex flex-col lg:flex-row w-[100%] px-[22px] lg:px-[121px] items-center justify-center py-[10px]">
-      <div className="w-[588px] lg:w-[50%] h-[374px] lg:h-[579px] bg-green rounded-tl-[20px] rounded-tr-[20px] lg:rounded-tr-none lg:rounded-bl-[20px] relative flex flex-col items-center justify-center">
+      {/* Left Content */}
+      <div className="w-[90%] lg:w-[588px] h-[374px] lg:h-[579px] bg-green rounded-tl-[20px] rounded-tr-[20px] lg:rounded-tr-none lg:rounded-bl-[20px] relative flex flex-col items-center justify-center">
         <img
           src="/assets/top_png.png"
           alt=""
@@ -26,21 +31,40 @@ function Hero() {
             problem in Nigeria by providing incentives to community members for
             the collection and recycling of plastics.
           </p>
-          <div className="w-[144px] h-[50px] bg-white/80  rounded-[40px] text-[#151515] text-[16px] flex items-center justify-center gap-[5px] mt-[30px] lg:hidden">
+          <div className="w-[144px] h-[50px] bg-white/80 rounded-[40px] text-[#151515] text-[16px] flex items-center justify-center gap-[5px] mt-[30px] lg:hidden">
             <div className="w-[5px] h-[5px] rounded-full bg-[#151515]"></div>
             Contact
           </div>
         </div>
       </div>
-      {/* <div className="h-[384px] lg:h-[579px] w-[588px] flex justify-center items-center rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]"> */}
-        <SimpleImageSlider
-          width={588}
-          height={579}
-          images={images}
-          showBullets={true}
-          showNavs={true}
-        />
-      {/* </div> */}
+
+      {/* Carousel */}
+      <div className="h-[384px] lg:h-[579px] lg:w-[588px] w-[90%] flex justify-center items-center rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]">
+        <Carousel
+          showThumbs={false}
+          autoPlay
+          infiniteLoop
+          showArrows
+          showStatus={false}
+          emulateTouch
+          className="w-full h-full"
+        >
+          {images.map((image, index) => (
+            <div key={index} className="h-[384px] lg:h-[579px] rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]">
+              <img
+                src={image.url}
+                alt={`Slide ${index + 1}`}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                }}
+                className="rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]"
+              />
+            </div>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 }
