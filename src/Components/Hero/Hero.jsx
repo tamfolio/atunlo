@@ -4,6 +4,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the st
 
 const images = [
   { url: "/assets/hero1.jpeg" },
+  { url: "/assets/hero3.png" },
+  { url: "/assets/hero7.png" },
   { url: "/assets/hero4_11zon.png" },
   { url: "/assets/hero8_11zon.png" },
   { url: "/assets/hero9_11zon.png" }
@@ -62,6 +64,7 @@ function Hero() {
                   objectFit: 'cover',
                 }}
                 className="rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]"
+                loading="lazy"
               />
             </div>
           ))}

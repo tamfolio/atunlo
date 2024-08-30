@@ -61,9 +61,10 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/kids.jpeg"
+              src="/assets/green_card2.png"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+              loading="lazy"
             />
           </div>
         </div>
@@ -96,6 +97,7 @@ function Initiative() {
               src="/assets/decarbon (2).png"
               alt=""
                className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+               loading="lazy"
             />
           </div>
         </div>
@@ -126,9 +128,10 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/green_card2.png"
+              src="/assets/recycling.svg"
               alt=""
                className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+               loading="lazy"
             />
           </div>
         </div>
@@ -162,6 +165,7 @@ function Initiative() {
               src="/assets/recycling_11zon.png"
               alt=""
                className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+               loading="lazy"
             />
           </div>
         </div>
