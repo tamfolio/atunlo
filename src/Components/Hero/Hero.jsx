@@ -59,7 +59,7 @@ function Hero() {
                 style={{
                   width: '100%',
                   height: '100%',
-                  objectFit: 'cover',
+                  objectFit: 'fit',
                 }}
                 className="rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]"
               />
