@@ -46,7 +46,7 @@ function Hero() {
           showThumbs={false}
           autoPlay
           infiniteLoop
-          showArrows
+          showArrows={false}
           showStatus={false}
           emulateTouch
           className="w-full h-full"
