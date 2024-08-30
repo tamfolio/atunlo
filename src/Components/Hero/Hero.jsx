@@ -4,9 +4,9 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the st
 
 const images = [
   { url: "/assets/hero1.jpeg" },
-  { url: "/assets/hero4.png" },
-  { url: "/assets/hero8.png" },
-  { url: "/assets/hero9.png" }
+  { url: "/assets/hero4_11zon.png" },
+  { url: "/assets/hero8_11zon.png" },
+  { url: "/assets/hero9_11zon.png" }
 ];
 
 function Hero() {

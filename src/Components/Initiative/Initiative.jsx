@@ -159,7 +159,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/recycling.png"
+              src="/assets/recycling_11zon.png"
               alt=""
                className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
             />
