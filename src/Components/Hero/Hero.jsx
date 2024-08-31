@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the st
 
 const images = [
   { url: "/assets/hero1.jpeg" },
-//   { url: "/assets/hero3.png" },
+  { url: "/assets/hero3.webp" },
 //   { url: "/assets/hero6.png" },
 //   { url: "/assets/hero7.png" },
   { url: "/assets/hero4_11zon.png" },

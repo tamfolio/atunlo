@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Initiative() {
   const [selection, setSelection] = useState("1");
@@ -11,7 +12,50 @@ function Initiative() {
     { id: "4", name: "Recycling" },
   ];
 
+  const greenClubImages = [
+    {
+      src: "/assets/green_club (2).svg",
+      alt: "Green Club",
+    },
+    {
+      src: "/assets/green_club (1).svg",
+      alt: "Green Card 2",
+    },
+    {
+      src: "/assets/green_club (3).svg",
+      alt: "Green Card 3",
+    },
+  ];
 
+  const decarbonizeImages = [
+    {
+      src: "/assets/decarbonize (2).svg",
+      alt: "Green Club",
+    },
+    {
+      src: "/assets/decarbonize (1).svg",
+      alt: "Green Card 2",
+    },
+    {
+      src: "/assets/decarbonize (3).svg",
+      alt: "Green Card 3",
+    },
+  ];
+
+  const recyclingImages = [
+    {
+      src: "/assets/decarbon (2).webp",
+      alt: "Green Club",
+    },
+    {
+      src: "/assets/decarbon (1).webp",
+      alt: "Green Card 2",
+    },
+    {
+      src: "/assets/decarbon (3).webp",
+      alt: "Green Card 3",
+    },
+  ];
 
   return (
     <div className="px-[21px] lg:px-[121px] pb-[50px] pt-[50px] lg:pt-[200px] flex items-center justify-center flex-col">
@@ -60,12 +104,23 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <img
-              src="/assets/green_club.svg"
-              alt="Green Club"
-              className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-              loading="lazy"
-            />
+            <Carousel
+              showArrows={false}
+              showThumbs={false}
+              infiniteLoop={true}
+              useKeyboardArrows={true}
+            >
+              {greenClubImages.map((image, index) => (
+                <div key={index}>
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
+            </Carousel>
           </div>
         </div>
       )}
@@ -93,12 +148,23 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-            <img
-              src="/assets/decarbonize (1).svg"
-              alt="Green Club"
-              className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-              loading="lazy"
-            />
+          <Carousel
+              showArrows={false}
+              showThumbs={false}
+              infiniteLoop={true}
+              useKeyboardArrows={true}
+            >
+              {decarbonizeImages.map((image, index) => (
+                <div key={index}>
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
+            </Carousel>
           </div>
         </div>
       )}
@@ -161,12 +227,23 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-          <img
-              src="/assets/decarbon (2).svg"
-              alt="Green Club"
-              className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
-              loading="lazy"
-            />
+          <Carousel
+              showArrows={false}
+              showThumbs={false}
+              infiniteLoop={true}
+              useKeyboardArrows={true}
+            >
+              {recyclingImages.map((image, index) => (
+                <div key={index}>
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
+            </Carousel>
           </div>
         </div>
       )}
