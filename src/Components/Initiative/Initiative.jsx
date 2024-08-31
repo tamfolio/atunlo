@@ -61,7 +61,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/green_club (2).svg"
+              src="/assets/green_club.svg"
               alt="Green Club"
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
               loading="lazy"
@@ -94,7 +94,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/decarbonize (3).svg"
+              src="/assets/decarbonize (1).svg"
               alt="Green Club"
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
               loading="lazy"
