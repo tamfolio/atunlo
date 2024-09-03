@@ -83,20 +83,19 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
               We are not just teaching kids about recycling
             </h1>
             <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
-              We are empowering them to be eco-champions. Through our Recycling
-              Clubs for Kids, we instil a sense of environmental stewardship
-              with engaging workshops, educational games, and hands-on
-              activities. But it doesn't end there. We take it a step further by
-              setting up collection centres in these schools. This innovative
-              approach allows kids to actively participate in waste management,
-              bringing plastics to school collection points and earning
-              incentives for each contribution. By supporting our Recycling
-              Clubs, you're fostering a culture of sustainability and
-              responsibility among the leaders of tomorrow.
+              We provide comprehensive decarbonization programs designed
+              specifically for corporates and government organizations committed
+              to reducing their carbon footprint and promoting sustainable
+              practices. Our approach includes targeted capacity-building
+              initiatives to educate and empower staff, along with practical
+              measures to optimize energy consumption and minimize waste. We
+              also facilitate the collection, recycling, and repurposing of
+              waste materials, helping organizations transition to more
+              sustainable operations and achieve their environmental goals.
             </p>
             <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
@@ -104,7 +103,7 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-          <img
+            <img
               src="/assets/green_club (2).svg"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
@@ -121,15 +120,20 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
-              Decarbonisation
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
+              Driving carbon neutrality with innovative decarbonization
+              solutions
             </h1>
             <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
-              We offer decarbonisation programs for corporates and government
-              organisations looking to reduce their carbon footprint. This
-              includes capacity building for staff members and other initiatives
-              focused on energy consumption reduction, collection as well as
-              recycling of waste.
+              We provide comprehensive decarbonization programs designed
+              specifically for corporates and government organizations committed
+              to reducing their carbon footprint and promoting sustainable
+              practices. Our approach includes targeted capacity-building
+              initiatives to educate and empower staff, along with practical
+              measures to optimize energy consumption and minimize waste. We
+              also facilitate the collection, recycling, and repurposing of
+              waste materials, helping organizations transition to more
+              sustainable operations and achieve their environmental goals.
             </p>
             <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
@@ -154,16 +158,20 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
-              Green Finance
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
+              Supporting sustainable growth with 0-interest loans
             </h1>
             <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
-              We have built a model to help profile our collection agents for
-              Green Financing. Here, our agents are given a 0% interest rate
-              loan to grow their business and increase their capacity to clean
-              up more waste materials from streets and communities. From launch
-              till date, we have given out over N35m in Green Finance to our
-              agents.
+              We have developed a unique model to support our collection agents
+              by providing them with access to Green Financing. Through this
+              program, our agents receive 0% interest rate loans to expand their
+              operations and enhance their capacity to collect more waste
+              materials from streets and communities. This initiative not only
+              boosts their businesses but also contributes significantly to our
+              collective environmental goals. Since the launch of this program,
+              we have disbursed over NGN 35 million in Green Finance to our
+              agents, enabling them to make a substantial impact in waste
+              reduction and community cleanup efforts.
             </p>
             <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
@@ -188,16 +196,23 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[40px] mb-[30px] lg:mb-[40px]">
-              Recycling
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
+              Turning plastic waste into opportunities for a cleaner, healthier
+              future
             </h1>
             <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
-              In collecting waste, we run sensitisation events to encourage
-              individuals to see plastics as a source of income. Some of our
-              incentives include cash, health insurance and education. Waste
-              collected is sorted and recycled into raw materials for circular
-              economy manufacturers who use these to make fibre, rope,
-              automobile materials and other household plastics.
+              In our waste collection efforts, we conduct community
+              sensitization events to inspire individuals to view plastic waste
+              as a valuable source of income. By educating communities on the
+              economic opportunities in recycling, we empower people to
+              contribute actively to environmental sustainability by offering a
+              range of incentives, including cash, insurance, and educational
+              support. The waste collected is meticulously sorted and recycled
+              into raw materials, which are then supplied to circular economy
+              manufacturers. These manufacturers repurpose the materials to
+              produce items like fiber, rope, automotive parts, and various
+              household plastics, thereby closing the loop in the lifecycle of
+              plastic products.
             </p>
             <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
@@ -205,7 +220,7 @@ function Initiative() {
             </div>
           </div>
           <div className="pb-[30px] w-[100%]">
-          <img
+            <img
               src="/assets/decarbon (3).webp"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
