@@ -15,18 +15,22 @@ function Footer() {
             <h1 className="text-[16px] font-medium mb-[24px]">Contact</h1>
             <a href={`tel:+2348182440889`} className="flex gap-[10px] items-center justify-center mb-[20px]">
               <img src="/assets/phone.png" alt="" />
-              <p>+2348182440889</p>
+              <p className="font-normal">+2348182440889</p>
             </a>
             <a href="mailto:operations@atunlotech.com" className="flex gap-[10px] items-center justify-center">
               <img src="/assets/mail.png" alt="" />
-              <p>operations@atunlotech.com</p>
+              <p className="font-normal">operations@atunlotech.com</p>
             </a>
           </div>
           <div>
             <h1 className="text-[16px] font-medium mb-[24px]">Social</h1>
             <div className="flex gap-[20px]">
-              <img src="/assets/instagram.png" alt="" />
-              <img src="/assets/linkedin.png" alt="" />
+              <a href="https://www.instagram.com/atunlosustech">
+                <img src="/assets/instagram.png" alt="" />
+              </a>
+              <a href="https://www.linkedin.com/company/atunlotech">
+                <img src="/assets/linkedin.png" alt="" />
+              </a>
             </div>
           </div>
           <div></div>

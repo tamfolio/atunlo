@@ -7,7 +7,7 @@ function Initiative() {
 
   const initiatives = [
     { id: "1", name: "Green Club" },
-    { id: "2", name: "Decarbonisation" },
+    { id: "2", name: "Decarbonization" },
     { id: "3", name: "Green Finance" },
     { id: "4", name: "Recycling" },
   ];
@@ -83,24 +83,25 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] text-justify lg:text-[25px] mb-[30px] lg:mb-[40px]">
               We are not just teaching kids about recycling
             </h1>
-            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
-              We provide comprehensive decarbonization programs designed
-              specifically for corporates and government organizations committed
-              to reducing their carbon footprint and promoting sustainable
-              practices. Our approach includes targeted capacity-building
-              initiatives to educate and empower staff, along with practical
-              measures to optimize energy consumption and minimize waste. We
-              also facilitate the collection, recycling, and repurposing of
-              waste materials, helping organizations transition to more
-              sustainable operations and achieve their environmental goals.
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px] text-left lg:text-justify">
+              We are empowering them to be eco-champions. Through our Recycling
+              Clubs for Kids, we instil a sense of environmental stewardship
+              with engaging workshops, educational games, and hands-on
+              activities. But it doesn't end there. We take it a step further by
+              setting up collection centres in these schools. This innovative
+              approach allows kids to actively participate in waste management,
+              bringing plastics to school collection points and earning
+              incentives for each contribution. By supporting our Recycling
+              Clubs, you're fostering a culture of sustainability and
+              responsibility among the leaders of tomorrow.
             </p>
-            <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
+            {/* <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
               <img src="/assets/down_arrow.png" alt="" />
-            </div>
+            </div> */}
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
@@ -120,11 +121,11 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-left text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
               Driving carbon neutrality with innovative decarbonization
               solutions
             </h1>
-            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px] text-left lg:text-justify">
               We provide comprehensive decarbonization programs designed
               specifically for corporates and government organizations committed
               to reducing their carbon footprint and promoting sustainable
@@ -135,10 +136,10 @@ function Initiative() {
               waste materials, helping organizations transition to more
               sustainable operations and achieve their environmental goals.
             </p>
-            <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
+            {/* <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
               <img src="/assets/down_arrow.png" alt="" />
-            </div>
+            </div> */}
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
@@ -158,10 +159,11 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
-              Supporting sustainable growth with 0-interest loans
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px] text-left">
+              Supporting sustainable growth with <br />
+              0-interest loans
             </h1>
-            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px] text-left lg:text-justify">
               We have developed a unique model to support our collection agents
               by providing them with access to Green Financing. Through this
               program, our agents receive 0% interest rate loans to expand their
@@ -173,10 +175,10 @@ function Initiative() {
               agents, enabling them to make a substantial impact in waste
               reduction and community cleanup efforts.
             </p>
-            <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
+            {/* <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
               <img src="/assets/down_arrow.png" alt="" />
-            </div>
+            </div> */}
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
@@ -196,11 +198,11 @@ function Initiative() {
             className="absolute bottom-0 left-0"
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
-            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px]">
+            <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px] text-left">
               Turning plastic waste into opportunities for a cleaner, healthier
               future
             </h1>
-            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px]">
+            <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px] text-left lg:text-justify">
               In our waste collection efforts, we conduct community
               sensitization events to inspire individuals to view plastic waste
               as a valuable source of income. By educating communities on the
@@ -214,10 +216,10 @@ function Initiative() {
               household plastics, thereby closing the loop in the lifecycle of
               plastic products.
             </p>
-            <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
+            {/* <div className="w-[223px] h-[60px] border-[1px] border-solid border-white flex items-center justify-center rounded-[40px] lg:absolute lg:bottom-0">
               <p className="text-white">Donate to this cause</p>
               <img src="/assets/down_arrow.png" alt="" />
-            </div>
+            </div> */}
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
