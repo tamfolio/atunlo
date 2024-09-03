@@ -37,7 +37,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <p className="text-[#151515] font-light text-[16px]">© Atunlo, {currentYear}.</p>
+        <p className="text-[#151515] font-medium text-[16px]">© Atunlo, {currentYear}.</p>
       </div>
     </div>
   );

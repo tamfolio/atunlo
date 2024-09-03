@@ -160,8 +160,8 @@ function Initiative() {
           />
           <div className="lg:h-[521px] lg:relative flex flex-col items-start justify-start">
             <h1 className="w-[100%] lg:w-[449px] font-semibold text-white text-[20px] lg:text-[25px] mb-[30px] lg:mb-[40px] text-left">
-              Supporting sustainable growth with <br />
-              0-interest loans
+              Supporting sustainable growth with 
+              0% interest loans
             </h1>
             <p className="font-light text-[16px] text-white w-[100%] lg:w-[455px] mb-[40px] text-left lg:text-justify">
               We have developed a unique model to support our collection agents
