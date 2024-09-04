@@ -143,7 +143,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/decarbonize (2).svg"
+              src="/assets/decarbon.webp"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
               loading="lazy"
