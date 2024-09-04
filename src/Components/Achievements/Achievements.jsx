@@ -29,7 +29,7 @@ function Achievements() {
           circleColor="bg-[#800080]/10"
           iconSrc="/assets/gift-box.png"
           amountText="Multiple incentive options"
-          descriptionText="cash, insurance, education"
+          descriptionText="cash, insurance, education and food"
         />
         <InfoCard
           bgColor="bg-[#FBDBD7]"

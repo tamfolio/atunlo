@@ -34,10 +34,6 @@ function Hero() {
             problem in Nigeria by providing incentives to community members for
             the collection and recycling of plastics.
           </p>
-          <div className="w-[144px] h-[50px] bg-white/80 rounded-[40px] text-[#151515] text-[16px] flex items-center justify-center gap-[5px] mt-[30px] lg:hidden">
-            <div className="w-[5px] h-[5px] rounded-full bg-[#151515]"></div>
-            Contact
-          </div>
         </div>
       </div>
 
