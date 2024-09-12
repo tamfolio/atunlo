@@ -12,8 +12,8 @@ function Partners() {
       <div className="flex flex-col gap-[20px]">
       <div className="mt-[80px] flex flex-col lg:flex-row gap-[20px]">
         <PartnerCard imageSrc="/assets/boi.jpg" />
-        <PartnerCard imageSrc="/assets/7up.png" />
-        <PartnerCard imageSrc="/assets/indorama.png" />
+        <PartnerCard imageSrc="/assets/climate.png" />
+        <PartnerCard imageSrc="/assets/Indorama.png" />
         <PartnerCard imageSrc="/assets/igs.png" />
         <PartnerCard imageSrc="/assets/mycoverai.png" />
       </div>

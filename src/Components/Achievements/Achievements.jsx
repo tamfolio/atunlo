@@ -6,8 +6,7 @@ function Achievements() {
     <div className="flex flex-col items-center justify-center lg:justify-start px-[21px] lg:px-[160px] py-[30px]">
       <p className="text-green text-[16px] lg:text-[20px]">Our Key Achievements</p>
       <h1 className="text-[33px] lg:text-[50px] font-medium w-[312px] lg:w-[564px] text-center my-[30px]">
-        Get a highlight of the <span className="text-green">SDGs</span> we've
-        impacted
+        Get a highlight of our <span className="text-green">Impact</span> so far
       </h1>
       <div className="lg:grid md:grid-cols-2 lg:grid-cols-3 gap-[20px] p-[20px] flex flex-col items-center justify-center">
         <InfoCard
@@ -63,7 +62,7 @@ function Achievements() {
           bgColor="bg-[#B6D7FF]"
           circleColor="bg-[#422DFF]/10"
           iconSrc="/assets/wave.png"
-          amountText="941T"
+          amountText="1000T"
           descriptionText="of plastics diverted from landfills"
         />
         <InfoCard
