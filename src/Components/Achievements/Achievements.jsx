@@ -20,7 +20,7 @@ function Achievements() {
           bgColor="bg-[#F4D6D9]"
           circleColor="bg-[#C42738]/10"
           iconSrc="/assets/cap.png"
-          amountText="7500+"
+          amountText="6,780+"
           descriptionText="jobs created"
         />
         <InfoCard
@@ -34,21 +34,21 @@ function Achievements() {
           bgColor="bg-[#FBDBD7]"
           circleColor="bg-[#ED432C]/10"
           iconSrc="/assets/person.png"
-          amountText="50%"
+          amountText="52.5%"
           descriptionText="female workforce"
         />
         <InfoCard
           bgColor="bg-[#DDE6DC]"
           circleColor="bg-[#4E7A47]/10"
           iconSrc="/assets/industry.png"
-          amountText="2.8mkg CO2"
+          amountText="2.8m kg CO2"
           descriptionText="emissions saved"
         />
         <InfoCard
           bgColor="bg-[#DDF5CF]"
           circleColor="bg-[#4CC800]/10"
           iconSrc="/assets/hand.png"
-          amountText="350+"
+          amountText="4,700+"
           descriptionText="Green Finance beneficiaries with 0% interest loans"
         />
         <InfoCard
@@ -62,14 +62,14 @@ function Achievements() {
           bgColor="bg-[#B6D7FF]"
           circleColor="bg-[#422DFF]/10"
           iconSrc="/assets/wave.png"
-          amountText="1,843T"
+          amountText="1.84m kg"
           descriptionText="of plastics diverted from landfills"
         />
         <InfoCard
           bgColor="bg-[#FFEECF]"
           circleColor="bg-[#FFA5001A]/10"
           iconSrc="/assets/people.png"
-          amountText=">309,000"
+          amountText=">308,600"
           descriptionText="individuals sensitised"
         />
       </div>

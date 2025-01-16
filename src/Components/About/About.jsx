@@ -20,7 +20,7 @@ function About() {
             <CustomCard
               imageSrc="/assets/commercialization.png"
               title="Commercialization"
-              description="Incentivise waste collection (waste to cash, insurance, education and food) and transform recyclable plastics into commercially viable products"
+              description="Incentivise waste collection (waste to cash, insurance, education and food) and transform recyclable materials into commercially viable products"
             />
           </div>
           <div className="flex mt-[20px]">
