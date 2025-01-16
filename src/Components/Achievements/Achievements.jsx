@@ -13,14 +13,14 @@ function Achievements() {
           bgColor="bg-[#DDF5CF]"
           circleColor="bg-[#4CC800]/10"
           iconSrc="/assets/money-bag.png"
-          amountText="N180m"
+          amountText="N531m"
           descriptionText="given to individuals for recyclables"
         />
         <InfoCard
           bgColor="bg-[#F4D6D9]"
           circleColor="bg-[#C42738]/10"
           iconSrc="/assets/cap.png"
-          amountText="1780+"
+          amountText="7500+"
           descriptionText="jobs created"
         />
         <InfoCard
@@ -41,35 +41,35 @@ function Achievements() {
           bgColor="bg-[#DDE6DC]"
           circleColor="bg-[#4E7A47]/10"
           iconSrc="/assets/industry.png"
-          amountText="1.4mkg CO2"
+          amountText="2.8mkg CO2"
           descriptionText="emissions saved"
         />
         <InfoCard
           bgColor="bg-[#DDF5CF]"
           circleColor="bg-[#4CC800]/10"
           iconSrc="/assets/hand.png"
-          amountText="200+"
+          amountText="350+"
           descriptionText="Green Finance beneficiaries with 0% interest loans"
         />
         <InfoCard
           bgColor="bg-[#F6EAD7]"
           circleColor="bg-[#CD8C2E]/10"
           iconSrc="/assets/recycle.png"
-          amountText="44.5m"
+          amountText="95m"
           descriptionText="bottles recycled"
         />
         <InfoCard
           bgColor="bg-[#B6D7FF]"
           circleColor="bg-[#422DFF]/10"
           iconSrc="/assets/wave.png"
-          amountText="1000T"
+          amountText="1,843T"
           descriptionText="of plastics diverted from landfills"
         />
         <InfoCard
           bgColor="bg-[#FFEECF]"
           circleColor="bg-[#FFA5001A]/10"
           iconSrc="/assets/people.png"
-          amountText=">4600"
+          amountText=">309,000"
           descriptionText="individuals sensitised"
         />
       </div>

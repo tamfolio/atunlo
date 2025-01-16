@@ -28,7 +28,7 @@ function About() {
               <CustomCard
                 imageSrc="/assets/governance.png"
                 title="Governance"
-                description="Raise awareness and promote an understanding of circular economy principles among businesses, policymakers and the general public"
+                description="Partner with organisations to create policy frameworks that support and guide the transition towards a circular economy"
               />
             </div>
           </div>
