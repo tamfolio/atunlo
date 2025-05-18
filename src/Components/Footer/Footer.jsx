@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,13 +12,22 @@ function Footer() {
           <p>9 Oriwu Street, Lekki</p>
         </div>
         <div className="flex flex-col lg:flex-row gap-[58px]">
+          <div>
+            <Link to="/policy">Terms of Service</Link>
+          </div>
           <div className="flex flex-col items-start justify-start">
             <h1 className="text-[16px] font-medium mb-[24px]">Contact</h1>
-            <a href={`tel:+2348182440889`} className="flex gap-[10px] items-center justify-center mb-[20px]">
+            <a
+              href={`tel:+2348182440889`}
+              className="flex gap-[10px] items-center justify-center mb-[20px]"
+            >
               <img src="/assets/phone.png" alt="" />
               <p className="font-normal">+2348182440889</p>
             </a>
-            <a href="mailto:operations@atunlotech.com" className="flex gap-[10px] items-center justify-center">
+            <a
+              href="mailto:operations@atunlotech.com"
+              className="flex gap-[10px] items-center justify-center"
+            >
               <img src="/assets/mail.png" alt="" />
               <p className="font-normal">operations@atunlotech.com</p>
             </a>
@@ -37,7 +47,9 @@ function Footer() {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <p className="text-[#151515] font-medium text-[16px]">© Atunlo, {currentYear}.</p>
+        <p className="text-[#151515] font-medium text-[16px]">
+          © Atunlo, {currentYear}.
+        </p>
       </div>
     </div>
   );
