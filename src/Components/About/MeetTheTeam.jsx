@@ -11,36 +11,53 @@ function MeetTheTeam() {
         <div className="flex flex-col gap-[40px]">
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
-              imageSrc="/assets/Anita.png"
+              imageSrc="/assets/Anita Odiete.jpg"
               name="Anita Odiete"
               title="Co-Founder and CEO"
             />
             <TeamCard
-              imageSrc="/assets/Ayo.png"
+              imageSrc="/assets/Ayo Ogunlowo.jpg"
               name="Ayo Ogunlowo"
               title="Co-Founder and COO"
             />
             <TeamCard
-              imageSrc="/assets/Samuel.png"
+              imageSrc="/assets/Mr Sam.png"
               name="Samuel Ogunlowo"
               title="Operations Manager"
             />
           </div>
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
-              imageSrc="/assets/Seun.png"
+              imageSrc="/assets/Mr Sodiq.png"
               name="Seun Komolafe"
               title="Collection Manager"
             />
             <TeamCard
-              imageSrc="/assets/Odunayo.png"
+              imageSrc="/assets/Mr Odunayo.png"
               name="Odunayo Otokiti"
               title="Collection Manager"
             />
             <TeamCard
-              imageSrc="/assets/Peace.png"
+              imageSrc="/assets/Ms Kira.png"
               name="Peace Uduak"
               title="Public Relations"
+            />
+          </div>
+          <div className="flex gap-[30px] flex-col lg:flex-row">
+            <TeamCard
+              imageSrc="/assets/Mr Timi.png"
+              name="Timilehim Omotoso"
+              title="Collection Manager"
+            />
+            <TeamCard
+              imageSrc="/assets/Ms Halimah.png"
+              name="Halimah Oriyomi"
+              title="Accounting Executive"
+            />
+            <TeamCard
+              imageSrc="/assets/Mr Louis.png"
+              name="Louis Okhio"
+              title="Social Media Marketing Manager"
             />
           </div>
         </div>
