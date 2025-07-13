@@ -21,41 +21,41 @@ function MeetTheTeam() {
               title="Co-Founder and COO"
             />
             <TeamCard
-              imageSrc="/assets/Mr Sam.png"
+              imageSrc="/assets/Mr Sam.webp"
               name="Samuel Ogunlowo"
               title="Operations Manager"
             />
           </div>
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
-              imageSrc="/assets/Mr Sodiq.png"
+              imageSrc="/assets/Mr Sodiq.webp"
               name="Seun Komolafe"
               title="Collection Manager"
             />
             <TeamCard
-              imageSrc="/assets/Mr Odunayo.png"
+              imageSrc="/assets/Mr Odunayo.webp"
               name="Odunayo Otokiti"
               title="Collection Manager"
             />
             <TeamCard
-              imageSrc="/assets/Ms Kira.png"
+              imageSrc="/assets/Ms Kira.webp"
               name="Peace Uduak"
               title="Public Relations"
             />
           </div>
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
-              imageSrc="/assets/Mr Timi.png"
+              imageSrc="/assets/Mr Timi.webp"
               name="Timilehim Omotoso"
               title="Collection Manager"
             />
             <TeamCard
-              imageSrc="/assets/Ms Halimah.png"
+              imageSrc="/assets/Ms Halimah.webp"
               name="Halimah Oriyomi"
               title="Accounting Executive"
             />
             <TeamCard
-              imageSrc="/assets/Mr Louis.png"
+              imageSrc="/assets/Mr Louis.webp"
               name="Louis Okhio"
               title="Social Media Marketing Manager"
             />
