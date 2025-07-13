@@ -11,7 +11,7 @@ function MeetTheTeam() {
         <div className="flex flex-col gap-[40px]">
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
-              imageSrc="/assets/Anita Odiete.jpg"
+              imageSrc="/assets/Anita_Odiete.png"
               name="Anita Odiete"
               title="Co-Founder and CEO"
             />
@@ -23,14 +23,14 @@ function MeetTheTeam() {
             <TeamCard
               imageSrc="/assets/Mr Sam.webp"
               name="Samuel Ogunlowo"
-              title="Operations Manager"
+              title="Operations Manager(Ibadan)"
             />
           </div>
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
               imageSrc="/assets/Mr Sodiq.webp"
-              name="Seun Komolafe"
-              title="Collection Manager"
+              name="Adebayo Sodiq"
+              title="Collection Manager(Ilorin)"
             />
             <TeamCard
               imageSrc="/assets/Mr Odunayo.webp"
@@ -46,7 +46,7 @@ function MeetTheTeam() {
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
               imageSrc="/assets/Mr Timi.webp"
-              name="Timilehim Omotoso"
+              name="Timilehin Omotoso"
               title="Collection Manager"
             />
             <TeamCard
