@@ -1,6 +1,7 @@
 import React from "react";
 import InfoCard from "./Infocard";
 
+
 function Achievements() {
   return (
     <div className="flex flex-col items-center justify-center lg:justify-start px-[21px] lg:px-[160px] py-[30px]">
@@ -77,7 +78,7 @@ function Achievements() {
         <InfoCard
           bgColor="bg-[#DDF5CF]"
           circleColor="bg-[#4CC800]/10"
-          iconSrc="/assets/people.png"
+          iconSrc="/assets/book-open.png"
           amountText="182"
           descriptionText="kids education sponsored"
         />
