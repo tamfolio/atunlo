@@ -16,6 +16,7 @@ function Partners() {
         <PartnerCard imageSrc="/assets/Indorama.png" />
         <PartnerCard imageSrc="/assets/igs.png" />
         <PartnerCard imageSrc="/assets/mycoverai.png" />
+        <PartnerCard imageSrc="/assets/POWA.jpeg" />
       </div>
       <div className="flex gap-[20px] flex-col lg:flex-row">
         <PartnerCard imageSrc="/assets/grap.png" />
@@ -23,6 +24,7 @@ function Partners() {
         <PartnerCard imageSrc="/assets/sonnex.png" />
         <PartnerCard imageSrc="/assets/hey.png" />
         <PartnerCard imageSrc="/assets/fidelity.png" />
+        <PartnerCard imageSrc="/assets/pcs school logo.jpg" />
       </div>
     </div>
     </div>

@@ -23,14 +23,14 @@ function MeetTheTeam() {
             <TeamCard
               imageSrc="/assets/Mr Sam.webp"
               name="Samuel Ogunlowo"
-              title="Operations Manager(Ibadan)"
+              title="Operations Manager (Ibadan)"
             />
           </div>
           <div className="flex gap-[30px] flex-col lg:flex-row">
             <TeamCard
               imageSrc="/assets/Mr Sodiq.webp"
               name="Adebayo Sodiq"
-              title="Collection Manager(Ilorin)"
+              title="Collection Manager (Ilorin)"
             />
             <TeamCard
               imageSrc="/assets/Mr Odunayo.webp"
@@ -47,6 +47,8 @@ function MeetTheTeam() {
             <TeamCard
               imageSrc="/assets/Mr Timi.webp"
               name="Timilehin Omotoso"
+              
+              
               title="Collection Manager"
             />
             <TeamCard

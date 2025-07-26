@@ -1,13 +1,13 @@
 import React from "react";
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the styles
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
 
 const images = [
-  { url: "/assets/hero1.jpeg" },
-  { url: "/assets/hero3.webp" },
-  { url: "/assets/hero4_11zon.png" },
-  { url: "/assets/hero8_11zon.webp" },
-  { url: "/assets/hero9_11zon.png" }
+  { url: "/assets/slide (5).jpg" },
+  { url: "/assets/slide (4).jpg" },
+  { url: "/assets/slide (3).jpg" },
+  { url: "/assets/slide (2).jpg" },
+  { url: "/assets/slide (1).jpg" },
 ];
 
 function Hero() {
@@ -26,13 +26,11 @@ function Hero() {
           className="absolute bottom-0 right-0 hidden lg:block"
         />
         <div className="flex flex-col items-start justify-center">
-          <h1 className="w-[312px] lg:w-[491px] h-[120px] lg:h-[195px] text-[33px] lg:text-[60px] text-white leading-[40px] lg:leading-[65px] font-semibold tracking-[-0.04em] mb-[20px]">
-            Advocacy, Commercialisation and Governance.
-          </h1>
-          <p className="lg:text-[24px] text-white w-[312px] lg:w-[449px] font-light text-[16px] leading-[23px]">
-            Atunlo is an initiative focused on solving the climate change
-            problem in Nigeria by providing incentives to community members for
-            the collection and recycling of plastics.
+          <p className="lg:text-[40px] text-white w-[312px] font-medium lg:font-semibold lg:w-[449px] text-[24px] lg:leading-[40px]">
+            Atunlo is dedicated to transforming Africa's approach to
+            sustainability by empowering individuals, communities and
+            corporations to adopt comprehensive, impactful sustainable practices
+            and circular economy principles.
           </p>
         </div>
       </div>
@@ -49,14 +47,17 @@ function Hero() {
           className="w-full h-full"
         >
           {images.map((image, index) => (
-            <div key={index} className="h-[384px] lg:h-[579px] rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]">
+            <div
+              key={index}
+              className="h-[384px] lg:h-[579px] rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]"
+            >
               <img
                 src={image.url}
                 alt={`Slide ${index + 1}`}
                 style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
                 }}
                 className="rounded-tr-none lg:rounded-tr-[20px] rounded-bl-[20px] lg:rounded-bl-none rounded-br-[20px]"
                 loading="lazy"

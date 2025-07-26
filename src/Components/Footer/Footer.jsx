@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaInstagram, FaLinkedin, FaTiktok, FaFacebookF } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -18,28 +20,66 @@ function Footer() {
           <div className="flex flex-col items-start justify-start">
             <h1 className="text-[16px] font-medium mb-[24px]">Contact</h1>
             <a
-              href={`tel:+2348182440889`}
+              href={`tel:+2348103415770`}
               className="flex gap-[10px] items-center justify-center mb-[20px]"
             >
               <img src="/assets/phone.png" alt="" />
-              <p className="font-normal">+2348182440889</p>
+              <p className="font-normal">+2348103415770</p>
             </a>
             <a
-              href="mailto:operations@atunlotech.com"
+              href="mailto:hello@atunlotech.com"
               className="flex gap-[10px] items-center justify-center"
             >
               <img src="/assets/mail.png" alt="" />
-              <p className="font-normal">operations@atunlotech.com</p>
+              <p className="font-normal">hello@atunlotech.com</p>
             </a>
           </div>
           <div>
             <h1 className="text-[16px] font-medium mb-[24px]">Social</h1>
-            <div className="flex gap-[20px]">
-              <a href="https://www.instagram.com/atunlosustech">
-                <img src="/assets/instagram.png" alt="" />
+            <div className="flex gap-[15px]">
+              <a
+                href="https://www.instagram.com/atunlosustech"
+                className="transition-transform hover:scale-110"
+              >
+                <div className="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                  <FaInstagram size={24} color="#4cc800" />
+                </div>
               </a>
-              <a href="https://www.linkedin.com/company/atunlotech">
-                <img src="/assets/linkedin.png" alt="" />
+
+              <a
+                href="https://www.linkedin.com/company/atunlotech"
+                className="transition-transform hover:scale-110"
+              >
+                <div className="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                  <FaLinkedin size={24} color="#4cc800" />
+                </div>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@atunlosustech"
+                className="transition-transform hover:scale-110"
+              >
+                <div className="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                  <FaTiktok size={24} color="#4cc800" />
+                </div>
+              </a>
+
+              <a
+                href="https://x.com/atunlosustech"
+                className="transition-transform hover:scale-110"
+              >
+                <div className="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                  <FaXTwitter size={24} color="#4cc800" />
+                </div>
+              </a>
+
+              <a
+                href="https://web.facebook.com/people/Atunlo-SusTech/61553628310084/"
+                className="transition-transform hover:scale-110"
+              >
+                <div className="w-8 h-8 bg-green-500 rounded flex items-center justify-center">
+                  <FaFacebookF size={24} color="#4cc800" />
+                </div>
               </a>
             </div>
           </div>

@@ -105,7 +105,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/green_club.webp"
+              src="/assets/Pic-51.webp"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
               loading="lazy"
@@ -143,7 +143,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/decarbon.webp"
+              src="/assets/decarbonn.jpg"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
               loading="lazy"
@@ -182,7 +182,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/recycling.svg"
+              src="/assets/Pic-48.webp"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
               loading="lazy"
@@ -223,7 +223,7 @@ function Initiative() {
           </div>
           <div className="pb-[30px] w-[100%]">
             <img
-              src="/assets/decarbon (3).webp"
+              src="/assets/bales.jpg"
               alt=""
               className="w-[100%] h-[404px] lg:w-[519px] lg:h-[521px] rounded-[20px] object-cover"
               loading="lazy"
