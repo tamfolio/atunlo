@@ -30,7 +30,7 @@ function MeetTheTeam() {
             <TeamCard
               imageSrc="/assets/Mr Sodiq.webp"
               name="Adebayo Sodiq"
-              title="Collection Manager (Ilorin)"
+              title="Operations Manager (Ilorin)"
             />
             <TeamCard
               imageSrc="/assets/Mr Odunayo.webp"

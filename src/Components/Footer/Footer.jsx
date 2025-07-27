@@ -86,7 +86,7 @@ function Footer() {
           <div></div>
         </div>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center mt-[40px]">
         <p className="text-[#151515] font-medium text-[16px]">
           © Atunlo, {currentYear}.
         </p>

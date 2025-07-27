@@ -26,7 +26,10 @@ function Hero() {
           className="absolute bottom-0 right-0 hidden lg:block"
         />
         <div className="flex flex-col items-start justify-center">
-          <p className="lg:text-[40px] text-white w-[312px] font-medium lg:font-semibold lg:w-[449px] text-[24px] lg:leading-[40px]">
+          <h1 class="w-[312px] lg:w-[491px] h-[120px] lg:h-[195px] text-[33px] lg:text-[60px] text-white leading-[40px] lg:leading-[65px] font-semibold tracking-[-0.04em] mb-[20px]">
+            Advocacy, Commercialisation and Governance.
+          </h1>
+          <p class="lg:text-[24px] text-white w-[312px] lg:w-[449px] font-light text-[16px] leading-[23px]">
             Atunlo is dedicated to transforming Africa's approach to
             sustainability by empowering individuals, communities and
             corporations to adopt comprehensive, impactful sustainable practices

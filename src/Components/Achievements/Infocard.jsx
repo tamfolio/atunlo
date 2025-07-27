@@ -2,17 +2,19 @@ import React from 'react';
 
 const InfoCard = ({ bgColor, circleColor, iconSrc, amountText, descriptionText }) => {
   return (
-    <div className={`w-[100%] lg:w-[364px] h-[300px] lg:h-[371px] rounded-[5px] flex flex-col ${bgColor} items-center justify-start pt-[20px]`}>
-      <div className={`w-[80px] h-[80px] ${circleColor} rounded-full flex items-center justify-center mb-[15px] lg:mb-[30px]`}>
-        <img src={iconSrc} alt="icon" />
+    <div className={`w-full max-w-[280px] h-[280px] sm:h-[320px] lg:h-[341px] rounded-[5px] flex flex-col ${bgColor} items-center justify-start pt-[20px] mx-auto`}>
+      <div className={`w-[80px] h-[80px] ${circleColor} rounded-full flex items-center justify-center mb-[15px]`}>
+        <img src={iconSrc} alt="icon" className="w-[40px] h-[40px] object-contain" />
       </div>
-      <div className="w-[100%] lg:w-[305px] flex flex-col items-center justify-center px-[10px]">
-        <div className='lg:h-[140px] flex items-center justify-center'>
-            <p className="text-[32px] lg:text-[56px] font-semibold  mb-[20px] text-center lg:leading-[45px]">{amountText}</p>
+      <div className="w-full max-w-[240px] flex flex-col items-center justify-center px-[15px] flex-1">
+        <div className='flex-1 flex items-center justify-center min-h-[120px]'>
+          <p className="text-[24px] sm:text-[32px] lg:text-[42px] font-semibold text-center leading-tight">{amountText}</p>
         </div>
-        <p className="text-[20px] font-light text-center h-[20px]">
-          {descriptionText}
-        </p>
+        <div className="pb-[10px]">
+          <p className="text-[16px] sm:text-[18px] lg:text-[20px] font-light text-center leading-snug">
+            {descriptionText}
+          </p>
+        </div>
       </div>
     </div>
   );
