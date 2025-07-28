@@ -171,7 +171,7 @@ function Initiative() {
               materials from streets and communities. This initiative not only
               boosts their businesses but also contributes significantly to our
               collective environmental goals. Since the launch of this program,
-              we have disbursed over NGN 35 million in Green Finance to our
+              we have disbursed over NGN 500 million in Green Finance to our
               agents, enabling them to make a substantial impact in waste
               reduction and community cleanup efforts.
             </p>
