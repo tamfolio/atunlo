@@ -15,7 +15,7 @@ const PartnerCard = ({ imageSrc }) => {
     : {};
 
   return (
-    <div className='w-[220px] h-[170px] rounded-[10px] border border-solid border-[#E8E8E8] flex items-center justify-center'>
+    <div className='w-[180px] h-[150px] rounded-[10px] border border-solid border-[#E8E8E8] flex items-center justify-center'>
       <img src={imageSrc} alt='' style={customStyles} className=''/>
     </div>
   );
