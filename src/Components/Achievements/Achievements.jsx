@@ -58,7 +58,7 @@ function Achievements() {
             bgColor="bg-[#F6EAD7]"
             circleColor="bg-[#CD8C2E]/10"
             iconSrc="/assets/recycle.png"
-            amountText="100m"
+            amountText=">100m"
             descriptionText="bottles recycled"
           />
           <InfoCard
