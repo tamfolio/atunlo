@@ -1,23 +1,31 @@
-import React from 'react';
+import React from "react";
 
-const InfoCard = ({ bgColor, circleColor, iconSrc, amountText, descriptionText }) => {
+// InfoCard component with proper alignment
+function InfoCard({ bgColor, circleColor, iconSrc, amountText, descriptionText }) {
   return (
-    <div className={`w-full max-w-[280px] h-[280px] sm:h-[320px] lg:h-[341px] rounded-[5px] flex flex-col ${bgColor} items-center justify-start pt-[20px] mx-auto`}>
-      <div className={`w-[80px] h-[80px] ${circleColor} rounded-full flex items-center justify-center mb-[15px]`}>
-        <img src={iconSrc} alt="icon" className="w-[40px] h-[40px] object-contain" />
+    <div className={`${bgColor} rounded-[16px] p-[20px] w-full max-w-[280px] h-[280px] flex flex-col justify-between`}>
+      {/* Icon section - fixed height */}
+      <div className="flex justify-center mb-[16px] h-[60px] items-center">
+        <div className={`${circleColor} w-[60px] h-[60px] rounded-full flex items-center justify-center`}>
+          <img src={iconSrc} alt="" className="w-[24px] h-[24px]" />
+        </div>
       </div>
-      <div className="w-full max-w-[240px] flex flex-col items-center justify-center px-[15px] flex-1">
-        <div className='flex-1 flex items-center justify-center min-h-[120px]'>
-          <p className="text-[24px] sm:text-[32px] lg:text-[42px] font-semibold text-center leading-tight">{amountText}</p>
-        </div>
-        <div className="pb-[10px]">
-          <p className="text-[16px] sm:text-[18px] lg:text-[20px] font-light text-center leading-snug">
-            {descriptionText}
-          </p>
-        </div>
+      
+      {/* Amount section - fixed height */}
+      <div className="text-center h-[40px] flex items-center justify-center mb-[8px]">
+        <h3 className="text-[24px] lg:text-[28px] font-bold text-gray-800 leading-tight">
+          {amountText}
+        </h3>
+      </div>
+      
+      {/* Description section - fixed height */}
+      <div className="text-center h-[48px] flex items-start justify-center">
+        <p className="text-[14px] lg:text-[16px] text-gray-600 leading-tight">
+          {descriptionText}
+        </p>
       </div>
     </div>
   );
-};
+}
 
 export default InfoCard;
